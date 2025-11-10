@@ -9,15 +9,20 @@ services:
       - "5173:80"
     networks:
       - network_digsboard
+    depends_on:
+      - backend
+
   backend:
     build: ./backend
     container_name: be-digsboard
     ports:
       - "3000:3000"
-    environment:
-      - MONGO_URI=mongodb://root:rahasia@mongo-digsboard:27017/vlms?authSource=admin
+    env_file:
+      - "./backend/.env.example"
     networks:
       - network_digsboard
+    depends_on:
+      - database
 
   database:
     image: mongo:8
