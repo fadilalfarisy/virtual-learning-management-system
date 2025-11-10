@@ -1,0 +1,35 @@
+services:
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_HOST_API: http://localhost:3000/api
+    container_name: fe-digsboard
+    ports:
+      - "5173:80"
+    networks:
+      - network_digsboard
+  backend:
+    build: ./backend
+    container_name: be-digsboard
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGO_URI=mongodb://root:rahasia@mongo-digsboard:27017/vlms?authSource=admin
+    networks:
+      - network_digsboard
+
+  database:
+    image: mongo:8
+    container_name: mongo-digsboard
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: rahasia
+    ports:
+      - "27017:27017"
+    networks:
+      - network_digsboard
+
+networks:
+  network_digsboard:

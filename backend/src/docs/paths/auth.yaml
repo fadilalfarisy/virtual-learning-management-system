@@ -1,0 +1,102 @@
+tags:
+  name: Auth
+  description: The authorization and authentication auth API
+components:
+  schemas:
+    RegisterRequest:
+      type: object
+      required:
+        - fullName
+        - email
+        - password
+      properties:
+        fullName:
+          type: string
+          description: The name of the auth
+        email:
+          type: string
+          description: The email auth
+        password:
+          type: string
+          description: The password account auth
+      example:
+        fullName: Nasi Goreng
+        email: nasi@gmail.com
+        password: "#1Gmail.com"
+
+    LoginRequest:
+      type: object
+      required:
+        - email
+        - password
+      properties:
+        email:
+          type: string
+          description: The email auth
+        password:
+          type: string
+          description: The password account auth
+      example:
+        email: nasi@gmail.com
+        password: "#1Gmail.com"
+        accessToken: "this_is_access_token"
+
+    AuthResponse:
+      example:
+        email: nasi@gmail.com
+        password: "#1Gmail.com"
+        accessToken: "this_is_access_token"
+
+/auth:
+/register:
+  post:
+    summary: Register auth
+    tags: [Auth]
+    requestBody:
+      required: true
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/RegisterRequest"
+      responses:
+        201:
+          description: The registered auth.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AuthResponse"
+
+/login:
+  post:
+    summary: Login auth
+    tags: [Auth]
+    requestBody:
+      required: true
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/RegisterRequest"
+      responses:
+        200:
+          description: The registered auth.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AuthResponse"
+
+/logout:
+  get:
+    summary: Logout auth
+    tags: [Auth]
+
+/refresh:
+  get:
+    summary: Regenerate access token auth
+    tags: [Auth]
+    parameters:
+      - in: cookie
+        name: token
+        schema:
+          type: string
+        required: true
+        description: The jwt cookie

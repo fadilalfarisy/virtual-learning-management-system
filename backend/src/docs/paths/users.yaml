@@ -1,0 +1,110 @@
+tags:
+  name: Users
+  description: The users managing API
+components:
+  schemas:
+    User:
+      type: object
+      required:
+        - name
+        - fullName
+        - email
+        - password
+      properties:
+        fullName:
+          type: string
+          description: The name of the user
+        email:
+          type: string
+          description: The email user
+        password:
+          type: string
+          description: The password account user
+      example:
+        fullName: Nasi Goreng
+        email: nasi@gmail.com
+        password: "#1Gmail.com"
+
+/user:
+  get:
+    summary: List all the users
+    tags: [Users]
+    responses:
+      200:
+        description: Success request
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                $ref: "#/components/schemas/User"
+
+  post:
+    summary: Create user
+    tags: [Users]
+    requestBody:
+      required: true
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/User"
+    responses:
+      201:
+        description: The course successfully created
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/User"
+
+  put:
+    summary: Update course
+    tags: [Courses]
+    parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+        required: true
+        description: The course id
+    requestBody:
+      required: true
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/User"
+    responses:
+      200:
+        description: The course successfully updated
+
+/user/{id}:
+  get:
+    summary: Get user by id
+    tags: [Users]
+    parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+        required: true
+        description: The course id
+    responses:
+      200:
+        description: The course
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/User"
+
+  delete:
+    summary: Remove the user by id
+    tags: [Users]
+    parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+        required: true
+        description: The user id
+    responses:
+      204:
+        description: The user successfully deleted

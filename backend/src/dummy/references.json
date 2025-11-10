@@ -1,0 +1,173 @@
+[
+  {
+    "_id": "6905fbc9a28d1eb8b4d1109e",
+    "title": "Pengenalan Dasar-Dasar Pemrograman untuk Pemula",
+    "link": "https://www.youtube.com/watch?v=HcOc7P5BMi4",
+    "channel": "Programmer Zaman Now",
+    "courseId": "6486e4c17aacfec76892b3ee",
+    "createdBy": "690589cbd06ecd1cd9373204",
+    "summary": "Summary isn't available"
+  },
+  {
+    "_id": "6905fbc9a28d1eb8b4d1109f",
+    "title": "Struktur Data dan Algoritma - Konsep Dasar",
+    "link": "https://www.youtube.com/watch?v=8hly31xKli0",
+    "channel": "FreeCodeCamp.org",
+    "courseId": "6486e4c17aacfec76892b3f4",
+    "createdBy": "690589cbd06ecd1cd9373204",
+    "summary": "Summary isn't available"
+  },
+  {
+    "_id": "6905fbc9a28d1eb8b4d1110a",
+    "title": "Belajar Basis Data untuk Pemula (MySQL Full Course)",
+    "link": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+    "channel": "Programming with Mosh",
+    "courseId": "6486e4c17aacfec76892b3f5",
+    "createdBy": "690589cbd06ecd1cd9373204",
+    "summary": "Summary isn't available"
+  },
+  {
+    "_id": "6905fbc9a28d1eb8b4d1110b",
+    "title": "OOP (Object Oriented Programming) Explained Simply",
+    "link": "https://www.youtube.com/watch?v=pTB0EiLXUC8",
+    "channel": "Telusko",
+    "courseId": "6486e4c17aacfec76892b3f9",
+    "createdBy": "690589cbd06ecd1cd9373204",
+    "summary": "Summary isn't available"
+  },
+  {
+    "_id": "6905fbc9a28d1eb8b4d1110c",
+    "title": "Networking Basics for Beginners",
+    "link": "https://www.youtube.com/watch?v=qiQR5rTSshw",
+    "channel": "NetworkChuck",
+    "courseId": "6486e4c17aacfec76892b3fc",
+    "createdBy": "690589cbd06ecd1cd9373204",
+    "summary": "Summary isn't available"
+  },
+  {
+    "_id": "6905fbc9a28d1eb8b4d1110d",
+    "title": "Belajar Pemrograman Web Dasar (HTML, CSS, JavaScript)",
+    "link": "https://www.youtube.com/watch?v=UB1O30fR-EE",
+    "channel": "Traversy Media",
+    "courseId": "6486e4c17aacfec76892b3fe",
+    "createdBy": "690589cbd06ecd1cd9373204",
+    "summary": "Summary isn't available"
+  },
+  {
+    "_id": "6905fbc9a28d1eb8b4d1110e",
+    "title": "Sistem Informasi Manajemen - Konsep dan Penerapan",
+    "link": "https://www.youtube.com/watch?v=Z8oBzE3RnxA",
+    "channel": "Dunia Manajemen",
+    "courseId": "6486e4c17aacfec76892b3ff",
+    "createdBy": "690589cbd06ecd1cd9373204",
+    "summary": "Summary isn't available"
+  },
+  {
+    "_id": "6905fbc9a28d1eb8b4d1110f",
+    "title": "Data Mining Full Course for Beginners",
+    "link": "https://www.youtube.com/watch?v=R-sGvh4X8qQ",
+    "channel": "Simplilearn",
+    "courseId": "6486e4c17aacfec76892b408",
+    "createdBy": "690589cbd06ecd1cd9373204",
+    "summary": "Summary isn't available"
+  },
+  {
+    "_id": "6905fbc9a28d1eb8b4d11110",
+    "title": "Sistem Pendukung Keputusan - Pengantar dan Contoh",
+    "link": "https://www.youtube.com/watch?v=fCY1jSBmXlA",
+    "channel": "Kuliah Online Indonesia",
+    "courseId": "6486e4c17aacfec76892b40d",
+    "createdBy": "690589cbd06ecd1cd9373204",
+    "summary": "Summary isn't available"
+  },
+  {
+    "_id": "6905fbc9a28d1eb8b4d11111",
+    "title": "Artificial Intelligence Explained for Beginners",
+    "link": "https://www.youtube.com/watch?v=JMUxmLyrhSk",
+    "channel": "Simplilearn",
+    "courseId": "6486e4c17aacfec76892b40a",
+    "createdBy": "690589cbd06ecd1cd9373204",
+    "summary": "Summary isn't available"
+  },
+  {
+    "_id": "6905fbc9a28d1eb8b4d11112",
+    "title": "Pengantar Logika dan Algoritma Pemrograman",
+    "link": "https://www.youtube.com/watch?v=8PopR3x-VMY",
+    "channel": "Web Programming UNPAS",
+    "courseId": "6486e4c17aacfec76892b3f2",
+    "createdBy": "690589cbd06ecd1cd9373204",
+    "summary": "Summary isn't available"
+  },
+  {
+    "_id": "6905fbc9a28d1eb8b4d11113",
+    "title": "Analisis dan Desain Sistem Informasi - Konsep Dasar",
+    "link": "https://www.youtube.com/watch?v=_ZJEL0XJrXA",
+    "channel": "Dosen Pintar",
+    "courseId": "6486e4c17aacfec76892b3fb",
+    "createdBy": "690589cbd06ecd1cd9373204",
+    "summary": "Summary isn't available"
+  },
+  {
+    "_id": "6905fbc9a28d1eb8b4d11114",
+    "title": "Sistem Operasi - Konsep dan Fungsi Dasar",
+    "link": "https://www.youtube.com/watch?v=26QPDBe-NB8",
+    "channel": "CrashCourse Computer Science",
+    "courseId": "6486e4c17aacfec76892b3fa",
+    "createdBy": "690589cbd06ecd1cd9373204",
+    "summary": "Summary isn't available"
+  },
+  {
+    "_id": "6905fbc9a28d1eb8b4d11115",
+    "title": "Belajar Statistika Dasar untuk Pemula",
+    "link": "https://www.youtube.com/watch?v=xxpc-HPKN28",
+    "channel": "Khan Academy Indonesia",
+    "courseId": "6486e4c17aacfec76892b3f8",
+    "createdBy": "690589cbd06ecd1cd9373204",
+    "summary": "Summary isn't available"
+  },
+  {
+    "_id": "6905fbc9a28d1eb8b4d11116",
+    "title": "Keamanan Informasi dan Cyber Security untuk Pemula",
+    "link": "https://www.youtube.com/watch?v=inWWhr5tnEA",
+    "channel": "Simplilearn",
+    "courseId": "6486e4c17aacfec76892b401",
+    "createdBy": "690589cbd06ecd1cd9373204",
+    "summary": "Summary isn't available"
+  },
+  {
+    "_id": "6905fbc9a28d1eb8b4d11117",
+    "title": "Manajemen Proyek TI - Panduan Lengkap",
+    "link": "https://www.youtube.com/watch?v=VJ3jGhyWqJg",
+    "channel": "Project Management Institute",
+    "courseId": "6486e4c17aacfec76892b406",
+    "createdBy": "690589cbd06ecd1cd9373204",
+    "summary": "Summary isn't available"
+  },
+  {
+    "_id": "6905fbc9a28d1eb8b4d11118",
+    "title": "Audit Sistem Informasi - Pengantar dan Framework COBIT",
+    "link": "https://www.youtube.com/watch?v=v6TbmHtXzxQ",
+    "channel": "TechForAudit",
+    "courseId": "6486e4c17aacfec76892b404",
+    "createdBy": "690589cbd06ecd1cd9373204",
+    "summary": "Summary isn't available"
+  },
+  {
+    "_id": "6905fbc9a28d1eb8b4d11119",
+    "title": "Enterprise Resource Planning (ERP) Explained",
+    "link": "https://www.youtube.com/watch?v=R9TjDEUo04E",
+    "channel": "SAP Learning",
+    "courseId": "6486e4c17aacfec76892b409",
+    "createdBy": "690589cbd06ecd1cd9373204",
+    "summary": "Summary isn't available"
+  },
+  {
+    "_id": "6905fbc9a28d1eb8b4d1111a",
+    "title": "Metodologi Penelitian - Penulisan Skripsi dan Paper",
+    "link": "https://www.youtube.com/watch?v=Sl-dG6dHjW8",
+    "channel": "Ruang Dosen",
+    "courseId": "6486e4c17aacfec76892b40c",
+    "createdBy": "690589cbd06ecd1cd9373204",
+    "summary": "Summary isn't available"
+  }
+]

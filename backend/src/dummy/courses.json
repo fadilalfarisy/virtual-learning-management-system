@@ -1,0 +1,194 @@
+[
+  {
+    "_id": "6486e4c17aacfec76892b3ee",
+    "course": "Dasar-Dasar Pemrograman",
+    "semester": 1
+  },
+  {
+    "_id": "6486e4c17aacfec76892b3ef",
+    "course": "Matematika Dasar",
+    "semester": 1
+  },
+  {
+    "_id": "6486e4c17aacfec76892b3f0",
+    "course": "Pengantar Sistem Informasi",
+    "semester": 1
+  },
+  {
+    "_id": "6486e4c17aacfec76892b3f1",
+    "course": "Bahasa Inggris",
+    "semester": 1
+  },
+  {
+    "_id": "6486e4c17aacfec76892b3f2",
+    "course": "Logika dan Algoritma",
+    "semester": 1
+  },
+  {
+    "_id": "6486e4c17aacfec76892b3f3",
+    "course": "Pendidikan Agama",
+    "semester": 1
+  },
+
+  {
+    "_id": "6486e4c17aacfec76892b3f4",
+    "course": "Struktur Data",
+    "semester": 2
+  },
+  {
+    "_id": "6486e4c17aacfec76892b3f5",
+    "course": "Basis Data",
+    "semester": 2
+  },
+  {
+    "_id": "6486e4c17aacfec76892b3f6",
+    "course": "Analisis Proses Bisnis",
+    "semester": 2
+  },
+  {
+    "_id": "6486e4c17aacfec76892b3f7",
+    "course": "Organisasi dan Arsitektur Komputer",
+    "semester": 2
+  },
+  {
+    "_id": "6486e4c17aacfec76892b3f8",
+    "course": "Statistika",
+    "semester": 2
+  },
+
+  {
+    "_id": "6486e4c17aacfec76892b3f9",
+    "course": "Pemrograman Berorientasi Objek",
+    "semester": 3
+  },
+  {
+    "_id": "6486e4c17aacfec76892b3fa",
+    "course": "Sistem Operasi",
+    "semester": 3
+  },
+  {
+    "_id": "6486e4c17aacfec76892b3fb",
+    "course": "Analisis dan Desain Sistem Informasi",
+    "semester": 3
+  },
+  {
+    "_id": "6486e4c17aacfec76892b3fc",
+    "course": "Jaringan Komputer",
+    "semester": 3
+  },
+  {
+    "_id": "6486e4c17aacfec76892b3fd",
+    "course": "Kewirausahaan",
+    "semester": 3
+  },
+
+  {
+    "_id": "6486e4c17aacfec76892b3fe",
+    "course": "Pemrograman Web",
+    "semester": 4
+  },
+  {
+    "_id": "6486e4c17aacfec76892b3ff",
+    "course": "Sistem Informasi Manajemen",
+    "semester": 4
+  },
+  {
+    "_id": "6486e4c17aacfec76892b400",
+    "course": "Interaksi Manusia dan Komputer",
+    "semester": 4
+  },
+  {
+    "_id": "6486e4c17aacfec76892b401",
+    "course": "Keamanan Informasi",
+    "semester": 4
+  },
+  {
+    "_id": "6486e4c17aacfec76892b402",
+    "course": "Analisis Big Data",
+    "semester": 4
+  },
+
+  {
+    "_id": "6486e4c17aacfec76892b403",
+    "course": "Pemrograman Mobile",
+    "semester": 5
+  },
+  {
+    "_id": "6486e4c17aacfec76892b404",
+    "course": "Audit Sistem Informasi",
+    "semester": 5
+  },
+  {
+    "_id": "6486e4c17aacfec76892b405",
+    "course": "E-Business",
+    "semester": 5
+  },
+  {
+    "_id": "6486e4c17aacfec76892b406",
+    "course": "Manajemen Proyek TI",
+    "semester": 5
+  },
+  {
+    "_id": "6486e4c17aacfec76892b407",
+    "course": "Etika Profesi TI",
+    "semester": 5
+  },
+
+  {
+    "_id": "6486e4c17aacfec76892b408",
+    "course": "Data Mining",
+    "semester": 6
+  },
+  {
+    "_id": "6486e4c17aacfec76892b409",
+    "course": "Enterprise Resource Planning",
+    "semester": 6
+  },
+  {
+    "_id": "6486e4c17aacfec76892b40a",
+    "course": "Kecerdasan Buatan",
+    "semester": 6
+  },
+  {
+    "_id": "6486e4c17aacfec76892b40b",
+    "course": "Rekayasa Perangkat Lunak",
+    "semester": 6
+  },
+  {
+    "_id": "6486e4c17aacfec76892b40c",
+    "course": "Metodologi Penelitian",
+    "semester": 6
+  },
+
+  {
+    "_id": "6486e4c17aacfec76892b40d",
+    "course": "Sistem Pendukung Keputusan",
+    "semester": 7
+  },
+  {
+    "_id": "6486e4c17aacfec76892b40e",
+    "course": "Manajemen Pengetahuan",
+    "semester": 7
+  },
+  {
+    "_id": "6486e4c17aacfec76892b40f",
+    "course": "Keamanan Jaringan",
+    "semester": 7
+  },
+  {
+    "_id": "6486e4c17aacfec76892b410",
+    "course": "Pengembangan Aplikasi Enterprise",
+    "semester": 7
+  },
+  { "_id": "6486e4c17aacfec76892b411", "course": "Magang", "semester": 7 },
+  {
+    "_id": "6486e4c17aacfec76892b413",
+    "course": "Seminar Proposal",
+    "semester": 8
+  },
+  {
+    "_id": "6486e4c17aacfec76892b414",
+    "course": "Tugas Akhir",
+    "semester": 8
+  }
+]
