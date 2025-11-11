@@ -74,8 +74,22 @@ This will build and run the backend, frontend, and a database service. Check `do
 
 ## Screenshoot interface
 
-![Login](<Screenshot (124).png>)
+1. Home page
 
-![Dashboard](<Screenshot (123).png>)
+![alt text](<Screenshot (129).png>)
 
-![Initiate Report](<Screenshot (126).png>)
+2. Contributor page
+
+![alt text](<Screenshot (131).png>)
+
+3. Bookmark page
+
+![alt text](<Screenshot (132).png>)
+
+4. List refences
+
+![alt text](<Screenshot (134).png>)
+
+5. Detail Reference
+
+![alt text](<Screenshot (135).png>)

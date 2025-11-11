@@ -6,6 +6,8 @@ import { authorizationReference } from "../middleware/authorization.js";
 const reference = express.Router();
 
 reference.get("/", referenceController.getAllReferences);
+reference.post("/summarize", referenceController.summarizeYoutubeVideo);
+
 reference.get(
   "/me",
   authentication,
@@ -14,11 +16,6 @@ reference.get(
 reference.get("/:id", referenceController.getReferenceById);
 
 reference.post("/", authentication, referenceController.createReference);
-reference.post(
-  "/summarize",
-  authentication,
-  referenceController.summarizeYoutubeVideo
-);
 
 reference.put(
   "/:id",

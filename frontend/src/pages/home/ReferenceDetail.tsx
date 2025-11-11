@@ -1,7 +1,11 @@
 import { useParams } from "react-router-dom";
-import { Result, Typography, Button } from "antd";
+import { Result, Typography, Button, message } from "antd";
 import { BackButton } from "../../components";
-import { useGetReferenceByIdQuery } from "../../state/api";
+import {
+  useGenerateSummaryMutation,
+  useGetReferenceByIdQuery,
+} from "../../state/api";
+import { useState } from "react";
 
 const { Title, Paragraph } = Typography;
 
@@ -15,8 +19,27 @@ interface IReferences {
 
 export const ReferenceDetail = () => {
   const { id } = useParams();
+  const [summaryValue, setSummaryValue] = useState("");
 
   const { data, isError, isSuccess } = useGetReferenceByIdQuery(id);
+  const [generateSummary, { isLoading: onGenerate }] =
+    useGenerateSummaryMutation();
+
+  const onGenerateSummary = async (link: string) => {
+    try {
+      const response = await generateSummary({ link }).unwrap();
+      console.log(response);
+      setSummaryValue(response.summary);
+      console.log(link);
+    } catch (error: any) {
+      console.log(error);
+      if (error.data) {
+        message.error(error.data.error);
+      } else {
+        message.error("Failed to summarize youtube video");
+      }
+    }
+  };
 
   if (isError) {
     return (
@@ -41,9 +64,15 @@ export const ReferenceDetail = () => {
             Watch
           </a>
         </Button>
-        <Paragraph style={{ textAlign: "justify" }}>{summary}</Paragraph>
+        <Paragraph style={{ textAlign: "justify" }}>
+          {" "}
+          {summaryValue == "" ? summary : summaryValue}
+        </Paragraph>
 
-        <div style={{ display: "flex", justifyContent: "end" }}>
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <Button loading={onGenerate} onClick={() => onGenerateSummary(link)}>
+            Generate new summary
+          </Button>
           <BackButton />
         </div>
       </>
